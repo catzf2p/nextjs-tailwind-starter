@@ -3,12 +3,14 @@ import React from 'react';
 function Index() {
     return (
         <>
-            <div className='flex h-screen items-center justify-center'>
-                <div className='text-center'>
-                    <h1 className='bg-gradient-to-r from-emerald-400 to-blue-500 bg-clip-text text-4xl font-extrabold text-transparent'>
-                        Next.js + TypeScript with Tailwind CSS
-                    </h1>
-                </div>
+            <div className='flex h-screen flex-col items-center justify-center'>
+                <img
+                    className='mb-6 w-40 animate-[spin_5s_linear_infinite]'
+                    src='react-logo.png'
+                ></img>
+                <h1 className='bg-gradient-to-r from-cyan-400 to-blue-400 bg-clip-text text-4xl font-extrabold text-transparent'>
+                    Next.js + TypeScript + Tailwind CSS
+                </h1>
             </div>
         </>
     );
