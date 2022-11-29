@@ -9,7 +9,7 @@
         "start:dev": "next dev",
         "lint": "next lint",
         "format": "prettier --write '**/*.{ts,tsx,css,md,json}' --config ./.prettierrc",
-        "deploy": "rm -rf node_modules/.cache && rimraf out && next build && next export && touch out/.nojekyll && gh-pages -d out"
+        "deploy": "rm -rf node_modules/.cache && rimraf out && next build && next export && touch out/.nojekyll && gh-pages -d out -t true"
     },
     "dependencies": {
         "next": "12.1.6",
